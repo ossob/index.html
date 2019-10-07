@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title>Rafaad! Somali Youth Justice Project</title>
+      <link rel="stylesheet" href="styles-landing.css">
+      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://kit.fontawesome.com/e85a94be5a.js" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $("#langingHome").mouseover(function() {
+            $("body").css("background-image","url(landing/home.gif)");
+            });
+          $("#langingHome").mouseout(function(){
+            $("body").css("background-image", "url(http://www.allwhitebackground.com/images/2/2270.jpg)");
+            });
+
+          $("#langingAbout").mouseover(function() {
+            $("body").css("background-image","url(landing/about.gif)");
+           });
+          $("#langingAbout").mouseout(function(){
+             $("body").css("background-image","url(http://www.allwhitebackground.com/images/2/2270.jpg)");
+           });
+          $("#langingDoc").mouseover(function() {
+              $("body").css("background-image","url(landing/doc.gif)");
+          });
+          $("#langingDoc").mouseout(function(){
+            $("body").css("background-color", "white");
+          });
+          $("#langingWorkshops").mouseover(function() {
+             $("body").css("background-image","url(landing/workshops.gif)");
+         });
+         $("#langingWorkshops").mouseout(function(){
+           $("body").css("background-color", "white");
+         });
+         $("#langingWorkshops").mouseover(function() {
+            $("body").css("background-image","url(landing/contact.gif)");
+        });
+        $("#langingWorkshops").mouseout(function(){
+          $("body").css("background-color", "white");
+        });
+        });
+      </script>
+      <script src="landing.js"></script>
+</head>
+
+<body class="landingBody">
+
+    <header>
+      <h1 class="landing-h1">Rafaad! Somali Youth Justice Project </h1>
+    <div class=landingSections>
+        <div id="langingHome">
+            <a href=home.html> home</a>
+        </div>
+        <div id="landingAbout">
+            <a href=home.html#about> about </a>
+        </div>
+        <div id="landingDoc">
+            <a class="landingTitleDoc" href=home.html#workshops> documentary</a>
+        </div>
+        <div id="landingWorkshops">
+            <a href=home.html#workshops> workshops</a>
+        </div>
+        <div id="landingContact">
+          <a href=home.html#contact> contact</a>
+        </div>
+       <!-- <div class="bg">
+        <img src="landing/home.gif"  alt=""/>
+        <img scr="landing/about.gif"  alt=""/>
+        <img scr="landing/doc.gif"  alt=""/>
+        <img scr="landing/workshops.gif"  alt=""/>
+        <img scr="landing/contact.gif"  alt=""/>
+      </div> -->
+    </div>
+    </header>
+
+    <footer>
+
+        <p>&copy; 2019 ossob </p>
+
+    </footer>
+  </body>
+</html>
